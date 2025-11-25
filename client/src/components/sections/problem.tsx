@@ -1,108 +1,83 @@
 import { motion } from "framer-motion";
-import { Users, Brain, MessageCircle, Activity } from "lucide-react";
-import { Card, CardContent } from "@/components/ui/card";
-
-const stats = [
-  {
-    value: "1 in 68",
-    label: "Children affected",
-    description: "Global prevalence of Autism Spectrum Disorder",
-    icon: Users,
-    color: "text-blue-500",
-    bg: "bg-blue-500/10",
-  },
-  {
-    value: "350,000+",
-    label: "Children in Pakistan",
-    description: "Estimated number of autistic children",
-    icon: Activity,
-    color: "text-green-500",
-    bg: "bg-green-500/10",
-  },
-  {
-    value: "Limited",
-    label: "Access to Therapy",
-    description: "Most services are concentrated in urban centers",
-    icon: Brain,
-    color: "text-orange-500",
-    bg: "bg-orange-500/10",
-  },
-];
+import { TrendingUp, Users2, Globe2 } from "lucide-react";
 
 export function ProblemSection() {
   return (
-    <section id="problem" className="py-24 bg-muted/30 relative overflow-hidden">
-      <div className="container mx-auto px-4">
-        <div className="max-w-3xl mx-auto text-center mb-16">
-          <h2 className="text-3xl md:text-5xl font-heading font-bold mb-6">
-            Understanding the <span className="text-primary">Challenge</span>
-          </h2>
-          <p className="text-lg text-muted-foreground">
-            Autism Spectrum Disorder (ASD) affects how a person perceives the world. In Pakistan, stigma and lack of resources leave thousands of families without support.
-          </p>
-        </div>
+    <section id="problem" className="py-32 bg-slate-950 text-white relative overflow-hidden">
+      {/* Gradient Background */}
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-slate-900 via-slate-950 to-black" />
+      
+      <div className="container mx-auto px-4 relative z-10">
+        <div className="grid lg:grid-cols-2 gap-20 items-center">
+          <div>
+            <h2 className="text-4xl md:text-6xl font-heading font-bold mb-8 leading-tight">
+              The Silent <br/>
+              <span className="text-red-500">Crisis</span> in Care
+            </h2>
+            <p className="text-xl text-slate-400 leading-relaxed mb-12">
+              Autism prevalence is rising, but access to quality care isn't keeping pace. In Pakistan, cultural stigma and resource scarcity leave thousands of children behind.
+            </p>
 
-        <div className="grid md:grid-cols-3 gap-8">
-          {stats.map((stat, index) => (
-            <motion.div
-              key={index}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: index * 0.2 }}
-            >
-              <Card className="h-full border-none shadow-lg bg-card/50 backdrop-blur hover:bg-card transition-colors">
-                <CardContent className="p-8 text-center">
-                  <div className={`w-16 h-16 mx-auto rounded-2xl flex items-center justify-center mb-6 ${stat.bg} ${stat.color}`}>
-                    <stat.icon className="w-8 h-8" />
-                  </div>
-                  <h3 className={`text-4xl font-bold mb-2 ${stat.color}`}>{stat.value}</h3>
-                  <h4 className="text-xl font-bold mb-3">{stat.label}</h4>
-                  <p className="text-muted-foreground">{stat.description}</p>
-                </CardContent>
-              </Card>
-            </motion.div>
-          ))}
-        </div>
-
-        <div className="mt-16 grid md:grid-cols-2 gap-8">
-          <div className="bg-white dark:bg-slate-800 p-8 rounded-3xl shadow-sm border border-border/50">
-            <h3 className="text-2xl font-bold mb-4 flex items-center gap-3">
-              <span className="p-2 bg-red-100 text-red-600 rounded-lg"><Activity className="w-5 h-5"/></span>
-              Key Challenges
-            </h3>
-            <ul className="space-y-4">
+            <div className="space-y-8">
               {[
-                "Shortage of trained therapists especially in rural areas",
-                "High cost of behavioral and speech therapy",
-                "Lack of bilingual resources (Urdu & English)",
-                "No real-time digital tools for personalized training"
+                {
+                  title: "Critical Shortage",
+                  desc: "Severe lack of trained therapists in rural regions.",
+                  color: "bg-red-500"
+                },
+                {
+                  title: "Financial Barrier",
+                  desc: "Therapy costs are prohibitive for most families.",
+                  color: "bg-orange-500"
+                },
+                {
+                  title: "Language Gap",
+                  desc: "Most tools are English-only, ignoring local context.",
+                  color: "bg-blue-500"
+                }
               ].map((item, i) => (
-                <li key={i} className="flex items-start gap-3 text-muted-foreground">
-                  <div className="w-1.5 h-1.5 rounded-full bg-red-400 mt-2.5 flex-shrink-0" />
-                  {item}
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          <div className="bg-primary/5 p-8 rounded-3xl border border-primary/10">
-            <h3 className="text-2xl font-bold mb-4 flex items-center gap-3">
-              <span className="p-2 bg-primary/20 text-primary rounded-lg"><Brain className="w-5 h-5"/></span>
-              Therapy Areas
-            </h3>
-            <div className="grid grid-cols-2 gap-4">
-              {[
-                { title: "Social Interaction", desc: "Improving responses & emotional understanding" },
-                { title: "Communication", desc: "Enhancing verbal skills via speech interventions" },
-                { title: "Eye Gaze", desc: "Teaching emotional cues & eye contact" },
-                { title: "Progress Tracking", desc: "Data-backed insights for parents" }
-              ].map((area, i) => (
-                <div key={i} className="p-4 bg-background rounded-xl shadow-sm">
-                  <p className="font-bold text-sm mb-1">{area.title}</p>
-                  <p className="text-xs text-muted-foreground">{area.desc}</p>
+                <div key={i} className="flex gap-6 items-start group">
+                  <div className={`w-1.5 h-16 ${item.color} rounded-full group-hover:scale-y-110 transition-transform`} />
+                  <div>
+                    <h4 className="text-2xl font-bold mb-2">{item.title}</h4>
+                    <p className="text-slate-400">{item.desc}</p>
+                  </div>
                 </div>
               ))}
+            </div>
+          </div>
+
+          <div className="relative">
+            <div className="absolute inset-0 bg-gradient-to-r from-red-500/20 to-purple-500/20 blur-3xl rounded-full" />
+            <div className="grid gap-6 relative">
+              <motion.div 
+                initial={{ x: 50, opacity: 0 }}
+                whileInView={{ x: 0, opacity: 1 }}
+                viewport={{ once: true }}
+                className="bg-white/5 backdrop-blur-xl border border-white/10 p-8 rounded-3xl"
+              >
+                <div className="flex items-center justify-between mb-4">
+                  <Users2 className="w-8 h-8 text-red-400" />
+                  <span className="text-xs font-bold uppercase tracking-wider text-slate-500">Prevalence</span>
+                </div>
+                <p className="text-5xl font-bold mb-2">1 in 68</p>
+                <p className="text-slate-400">Children affected by ASD globally</p>
+              </motion.div>
+
+              <motion.div 
+                initial={{ x: 50, opacity: 0 }}
+                whileInView={{ x: 0, opacity: 1 }}
+                viewport={{ once: true }}
+                transition={{ delay: 0.2 }}
+                className="bg-white/5 backdrop-blur-xl border border-white/10 p-8 rounded-3xl"
+              >
+                <div className="flex items-center justify-between mb-4">
+                  <Globe2 className="w-8 h-8 text-blue-400" />
+                  <span className="text-xs font-bold uppercase tracking-wider text-slate-500">Local Impact</span>
+                </div>
+                <p className="text-5xl font-bold mb-2">350,000+</p>
+                <p className="text-slate-400">Estimated autistic children in Pakistan</p>
+              </motion.div>
             </div>
           </div>
         </div>

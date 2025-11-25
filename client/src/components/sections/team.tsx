@@ -1,84 +1,38 @@
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { Card, CardContent } from "@/components/ui/card";
-import { Linkedin, Mail } from "lucide-react";
 
 const team = [
-  {
-    name: "Nimrah Kamran",
-    role: "Founder - Software Engineer",
-    initials: "NK",
-    color: "bg-pink-100 text-pink-600"
-  },
-  {
-    name: "Amal Asim",
-    role: "Co-Founder - Software Engineer",
-    initials: "AA",
-    color: "bg-purple-100 text-purple-600"
-  },
-  {
-    name: "Khawaja Muqeet",
-    role: "Co-Founder - CEO NerdFlow",
-    initials: "KM",
-    color: "bg-blue-100 text-blue-600"
-  },
-  {
-    name: "Iqra Rathore",
-    role: "CMO - Preplify",
-    initials: "IR",
-    color: "bg-green-100 text-green-600"
-  },
-  {
-    name: "Hunzala Ali",
-    role: "COO - Software Engineer",
-    initials: "HA",
-    color: "bg-orange-100 text-orange-600"
-  },
-  {
-    name: "Obaid Ahmed Khan",
-    role: "Director of Design",
-    initials: "OA",
-    color: "bg-yellow-100 text-yellow-600"
-  },
-  {
-    name: "Abdul Hadi Butt",
-    role: "CTO - NerdFlow",
-    initials: "AH",
-    color: "bg-cyan-100 text-cyan-600"
-  }
+  { name: "Nimrah Kamran", role: "Founder", image: "https://i.pravatar.cc/150?u=nimrah" },
+  { name: "Amal Asim", role: "Co-Founder", image: "https://i.pravatar.cc/150?u=amal" },
+  { name: "Khawaja Muqeet", role: "CEO NerdFlow", image: "https://i.pravatar.cc/150?u=khawaja" },
+  { name: "Iqra Rathore", role: "CMO", image: "https://i.pravatar.cc/150?u=iqra" },
+  { name: "Hunzala Ali", role: "COO", image: "https://i.pravatar.cc/150?u=hunzala" },
+  { name: "Obaid Ahmed", role: "Design Dir.", image: "https://i.pravatar.cc/150?u=obaid" },
+  { name: "Abdul Hadi", role: "CTO", image: "https://i.pravatar.cc/150?u=hadi" },
 ];
 
 export function TeamSection() {
   return (
-    <section id="team" className="py-24 bg-muted/30">
+    <section id="team" className="py-32 bg-background">
       <div className="container mx-auto px-4">
-        <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="text-3xl md:text-5xl font-heading font-bold mb-6">Meet the Team</h2>
-          <p className="text-lg text-muted-foreground">
-            A diverse team of experts in AI, education, therapy, and design working together to create an inclusive platform.
+        <div className="text-center mb-20">
+          <h2 className="text-4xl font-heading font-bold mb-6">The Minds Behind Raabta</h2>
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+            United by a passion for inclusive technology and education.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-          {team.map((member, index) => (
-            <Card key={index} className="border-none shadow-sm hover:shadow-md transition-shadow">
-              <CardContent className="p-6 flex flex-col items-center text-center">
-                <Avatar className="h-24 w-24 mb-4">
-                  <AvatarFallback className={`text-xl font-bold ${member.color}`}>
-                    {member.initials}
-                  </AvatarFallback>
-                </Avatar>
-                <h3 className="text-lg font-bold mb-1">{member.name}</h3>
-                <p className="text-sm text-muted-foreground mb-4">{member.role}</p>
-                <div className="flex gap-2">
-                  <a href="#" className="p-2 rounded-full bg-muted hover:bg-primary/10 hover:text-primary transition-colors">
-                    <Linkedin className="w-4 h-4" />
-                  </a>
-                  <a href="#" className="p-2 rounded-full bg-muted hover:bg-primary/10 hover:text-primary transition-colors">
-                    <Mail className="w-4 h-4" />
-                  </a>
-                </div>
-              </CardContent>
-            </Card>
+        <div className="flex flex-wrap justify-center gap-8 md:gap-12">
+          {team.map((member, i) => (
+            <div key={i} className="flex flex-col items-center group cursor-pointer">
+              <div className="w-24 h-24 md:w-32 md:h-32 rounded-full overflow-hidden border-4 border-white dark:border-slate-800 shadow-xl mb-6 transition-transform duration-300 group-hover:scale-110 group-hover:border-primary">
+                 <Avatar className="w-full h-full">
+                    <AvatarImage src={member.image} className="object-cover grayscale group-hover:grayscale-0 transition-all duration-500" />
+                    <AvatarFallback>{member.name[0]}</AvatarFallback>
+                 </Avatar>
+              </div>
+              <h3 className="font-bold text-lg">{member.name}</h3>
+              <p className="text-sm text-primary font-medium">{member.role}</p>
+            </div>
           ))}
         </div>
       </div>
