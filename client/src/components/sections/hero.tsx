@@ -48,7 +48,7 @@ export function Hero() {
             
             <div className="flex flex-col sm:flex-row items-center gap-4 justify-center lg:justify-start pt-4">
               <Button size="lg" className="rounded-full h-14 px-10 text-lg shadow-xl shadow-primary/20 hover:shadow-primary/30 hover:scale-105 transition-all duration-300">
-                Start Free Trial <ArrowRight className="ml-2 h-5 w-5" />
+                Request Early Access <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
               <Button size="lg" variant="outline" className="rounded-full h-14 px-8 text-lg border-2 bg-background/50 backdrop-blur hover:bg-accent/50">
                 <PlayCircle className="mr-2 h-5 w-5" /> Watch Demo
