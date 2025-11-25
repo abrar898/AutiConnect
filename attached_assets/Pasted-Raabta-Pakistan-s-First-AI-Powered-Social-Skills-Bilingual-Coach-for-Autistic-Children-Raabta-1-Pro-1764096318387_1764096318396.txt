@@ -1,0 +1,417 @@
+Raabta
+Pakistan’s First AI-Powered Social Skills
+Bilingual Coach for Autistic Children
+
+Raabta 1
+Problem statement
+
+Autism Spectrum Disorder (ASD) is a neurodevelopmental condition that affects how a person perceives the world,
+communicates, and interacts with others. People with autism typically exhibit challenges in the social Interaction,
+communication, repetitive behaviors & Restricted Interests.
+Autism in Pakistan
+Autism Spectrum Disorder (ASD) affects a growing number of children in Pakistan. According to estimates by
+Autism Spectrum Disorders Welfare Trust (ASDWT), in Pakistan is autistic, although the
+actual number may be significantly higher due to underreporting, stigma, and lack of early diagnosis and
+awareness. Over are living with autism, yet access to quality therapy remains limited
+to major urban centers.
+
+1 in every 68 children
+
+350,000 children in Pakistan
+
+Key Challanges
+Shortage of trained therapists and special education professionals, especially in rural areas.
+High cost of behavioral and speech therapy—often unaffordable for middle- and lower-income families.
+Lack of bilingual therapy resources that are culturally adapted for Pakistani children..
+No real-time digital tool in the market offering personalized social skills training for autistic children.
+Therapy Areas
+
+Social Interaction:
+Improving social responses,
+turn-taking, and emotional
+understanding.
+
+Communication:
+Enhancing verbal skills using
+accessible speech
+interventions.
+
+Eye Gaze & Facial
+Recognition:
+Teaching emotional cues and
+eye contact through adaptive
+AI-driven exercises.
+
+Progress Tracking:
+Monitoring skill development
+with data-backed insights for
+parents and therapists.
+
+Phone: +92 333 2907662 Email: nimrahkamran620@gmail.com
+
+Raabta 2
+MVP (Minimum Viable Product)
+
+What is Raabta?
+Raabta is a mobile and web application that uses AI-powered, culturally relevant storytelling to help autistic
+children (ages 8–16, Level 1 & 2 Autism) in Pakistan improve social, emotional, and communication skills. It is the
+in the country, designed using AI, NLP, and Computer Vision,
+
+backed by therapist feedback and parent engagement tools.
+First Urdu-English Bilingual Autism Support App
+
+Core Features:
+
+Interactive AI Conversational Bot:
+Designed for autistic children to practice social cues,
+greetings, and everyday conversations in both
+English & Urdu.
+
+Eye Gaze Detection:
+Instant analysis of focus, attention, and engagement
+levels to support social skill development and identify
+key improvement areas.
+
+Gamified progress tracking:
+Keep children engaged with visual rewards and
+milestones that celebrate therapeutic and behavioral
+growth.
+
+Parent Therapist Dashboard:
+Curated progress insights, communication patterns,
+to guide therapy and home support effectively.
+
+F acial Recognition of Emotions:
+Real time detection of emotional cues to support
+social awareness and improve emotional expression
+in autistic children.
+
+S cenario based Learning:
+Real-life social situations designed for autistic
+children to build communication, confidence, and
+emotional understanding.
+
+Development Plan:
+Backend Foundation: Build a robust backend system capable of managing AI computations and scalability.
+Prototype Creation: Design an engaging and functional prototype for feedback.
+Internal Testing: Refine functionality and identify potential areas for improvement.
+Alpha and Beta Releases: Gradual rollout to test groups for feature validation and optimisation.
+
+Phone: +92 333 2907662 Email: nimrahkamran620@gmail.com
+
+Raabta 3
+One Year Plan
+
+Overview:
+The 1-year plan ensures a strategic and phased approach to launching Raabta, balancing development, testing, and
+market penetration to maximise impact.
+Phase 1: Alpha Testing (Months 1-3)
+To understand market demands, identify user pain points, and define technical and operational
+requirements for Raabta AI-powered Social Skills coach for Autistic children.
+
+Key Activities:
+Conduct in-depth market research to identify gaps in
+current therapy.
+Collaborate with stakeholders (Therapists, Parents) to
+finalize the list of core features.
+Analyze competing platforms and define Raabta’s
+unique positioning.
+Create a comprehensive roadmap for product
+development.
+
+Deliverables
+Industry analysis report outlining user needs and
+market opportunities.
+Feature specification document for AI functionalities,
+Progress Tracking, and gamification.
+Technical framework and timeline for the development
+phase.
+
+Outcomes:
+Clear understanding of market positioning and product differentiation.
+Detailed blueprint for the next development steps.
+
+Phase 2: Beta Launch (Months 4-6)
+To build and refine the core platform, ensuring scalability and a seamless user experience.
+Key Streams:
+
+App Development:
+Build the backend infrastructure to support AI-driven
+features. Integrate secure cloud infrastructure for
+reliable performance.
+
+Create an intuitive user interface with an easy-to-
+navigate structure.
+
+Train the AI model to deliver industry-specific interview
+simulations.
+Implement testing protocols to identify bugs and
+ensure platform stability. Validate user flows to
+maintain consistency in experience.
+
+Deliverables
+A fully functioning MVP ready for initial testing.
+A robust gamification feature to enhance user
+engagement.
+
+Phone: +92 333 2907662 Email: nimrahkamran620@gmail.com
+
+Raabta 4
+One Year Plan (Continued)
+
+Outcomes:
+MVP with essential features ready for user validation.
+Seamless functionality and high-quality user interface.
+
+Deliverables:
+A fully functioning MVP ready for initial testing.
+AI systems capable of delivering mock interview simulations.
+A robust gamification feature to enhance user engagement.
+
+Phase 3: Post-Production (Month 7 Onwards)
+To launch the platform, validate its effectiveness with users, and expand market reach.
+
+Key Objectives:
+MVP Validation: Release the MVP to beta testers and
+gather feedback for further refinements. Iterate on
+features to improve usability and performance.
+Marketing Campaigns: Launch targeted marketing
+strategies to attract early adopters. Build partnerships
+with Special educational institutions, Doctors, and
+Hospitals.
+Funding Expansion: Pitch to investors for additional
+funding to scale operations. Use funding to introduce
+advanced features and grow the team.
+
+Deliverables
+Refined MVP based on real-world feedback.
+Marketing collateral, including social media campaigns
+and outreach materials.
+Financial resources to support growth and innovation.
+
+Outcomes:
+Strong initial user base with high engagement rates.
+Sustainable revenue streams from subscriptions and
+partnerships.
+
+Summary:
+This layered approach ensures that Raabta is built on a strong foundation, evolves through iterative feedback,
+and achieves a successful launch with maximum market impact. Each phase addresses critical milestones, paving
+the way for a scalable and impactful platform.
+
+Phone: +92 333 2907662 Email: nimrahkamran620@gmail.com
+
+Raabta 5
+Core Team
+
+Meet the team:
+The Raabta team brings together expertise in AI, education, therapy, and design to create an inclusive and
+impactful platform. Each member contributes unique skills and real-world insights to ensure innovation, empathy,
+and sustainable growth.
+
+Nimrah Kamran
+Founder - Software Engineer
+Nimrah leads Raabta’s vision and strategy, ensuring the team
+delivers meaningful impact through innovation and collaboration.
+She focuses on long-term growth while aligning the product with
+real user needs.
+
+Amal Asim
+Co-Founder - Software Engineer
+Amal Asim, a Software Engineer from NUST with 3 years of
+teaching experience, brings a strong blend of technical expertise
+and educational insight to Raabta.
+
+Khawaja Muqeet
+Co-Founder - CEO NerdFlow
+Khawaja oversees the strategic direction of Raabta, ensuring
+alignment with the company’s vision and goals. With a focus on
+long-term growth, he ensures the team delivers exceptional value
+to users and stakeholders alike.
+
+Iqra Rathore
+Chief Marketing Officer - Preplify
+Iqra leads marketing efforts, creating campaigns that resonate
+with users and partners. She specializes in storytelling, using
+data-driven strategies to communicate the platform’s value.
+
+Hunzala Ali
+Chief Operating Officer - Software Engineer
+Hunzala ensures Raabta’s operations run efficiently and align with
+the platform’s mission. He oversees day-to-day execution,
+streamlines processes, and fosters cross-functional collaboration.
+
+Obaid Ahmed Khan
+Director of Design
+Obaid leads the creative vision for Raabta’s user experience and
+visual identity. With a keen eye for detail and a passion for
+intuitive design.
+
+Abdul Hadi Butt
+Chief Technology Officer - NerdFlow
+Hadi leads the development of user-centric features, ensuring Raabta
+addresses market demands with precision.
+
+A2 Academy
+
+Phone: +92 333 2907662 Email: nimrahkamran620@gmail.com
+PREPLIFY
+
+Raabta 6
+Market Opportunity
+
+Overview:
+The need for autism-focused communication and social skill training is growing rapidly. As awareness increases,
+
+parents, therapists, and educators seek tools that support development. Our app meets this demand with AI-
+powered solutions, offering personalized and scalable therapy to empower neurodiverse individuals.
+
+Key Statistics:
+The global autism therapy market is projected to surpass , fueled by demand for accessible, tech-driven support.
+Over face challenges in social interaction, eye contact, and communication—areas often underserved by
+traditional methods.
+
+express the need for engaging, personalized therapy tools, making this a crucial focus for innovation in autism care.
+
+$10 billion by 2026
+
+70% of autistic children
+80% of caregivers
+
+TAM
+Total Addressable Market:
+The global autism care market is valued at approximately
+, covering therapy, tools, and developmental solutions. The
+tech-enabled therapy segment, which includes solutions like Raabta,
+is projected to grow rapidly by 2026, driven by the need for
+accessible, personalized, and scalable support for individuals on the
+autism spectrum.
+
+$3.2
+
+billion
+
+SAM
+Serviceable Available Market:
+Within the autism care and support market, AI-powered solutions
+focused on communication and social skill development represent a
+growing segment worth approximately . This includes
+therapy centers, special education institutions, and families
+worldwide seeking scalable, personalized, and tech-driven support
+tools like Raabta.
+
+$1.2 billion
+
+SOM
+Serviceable Obtainable Market:
+Raabtas initial target market includes autism therapy centers, special education schools, and parents of autistic children in regions with growing
+awareness and adoption of digital health tools, such as North America, Europe, and South Asia. This segment represents an estimated
+opportunity for Raabta over the next 5 years.
+
+$500
+
+million
+
+Target Audiences:
+Level 1 & Level 2 Autism Children (Ages 8-16): Children with mild to moderate autism often struggle with social cues and daily
+communication. Raabta provides structured, gamified learning to help them build social and emotional confidence.
+Parents & Therapists: Caregivers and therapists need digital tools to track progress, tailor sessions, and reinforce positive behavior.
+Raabta offers dashboards and curated activities to support home and clinic use.
+Special Educational Institutions: Schools and centers supporting special needs education benefit from tools that foster skill development.
+Partnering with Raabta enhances their offerings with scenario-based, personalized learning.
+
+Phone: +92 333 2907662 Email: nimrahkamran620@gmail.com
+
+Raabta 7
+Go to market (gtm) plan
+
+Pilot Launch with Schools & Therapy Centers:
+Partner with special education institutions for initial deployment.
+Collect feedback from therapists, teachers, and parents to improve features.
+Collaboration with NGOs & Autism Networks
+Reach out to organizations like Autism Society Pakistan or Special Talent Exchange Program (STEP).
+Conduct awareness campaigns and demo sessions with parents and caregivers.
+Digital Campaigns for Parents
+Facebook, Instagram, and TikTok ads targeting parents of children aged 8–16.
+Content includes success stories, app demos, and expert endorsements.
+Participation in Health & EdTech Exhibitions
+Showcase Raabta in disability inclusion expos, educational tech summits, and CSR forums.
+Target government programs and CSR grants focused on inclusive education.
+
+Revenue Streams:
+In App Purchases
+Custom avatars, emotion expression packs, interactive roleplay scenes.
+Reward based unlocks to sustain engagement and offer new scenarios.
+Institutional Partnerships
+Annual licensing for NGOs, therapy centers, and schools.
+Includes multi user logins, progress dashboards, and training for staff.
+Subscription Plan
+Freemium model for individuals (limited access).
+Monthly/annual subscription for full access to all features, including parental analytics.
+
+Phone: +92 333 2907662 Email: nimrahkamran620@gmail.com
+Target Industries:
+Healthcare: Aid therapists in reinforcing behavioral therapy with interactive and trackable role play scenarios.
+Special Education: Support neurodivergent children in building communication, empathy, and social interaction
+skills through gamified learning.
+NGOs & Social Welfare: Empower caregivers and families with accessible tools to support autistic children in
+developing everyday life and communication skills.
+
+Raabta 8
+Competitor Analysis
+
+Mental Imagery Therapy for Autism (MITA):
+Cognitive training app that helps autistic children
+practice social cues and language skills. Unlike
+Raabta, it lacks bilingual (Urdu-English) support and
+culturally relevant storytelling.
+
+Auti Spark:
+Cognitive games for autistic children with
+engagement tracking but lacks real-life
+conversations and bilingual storytelling like Raabta.
+
+Autism AI:
+Offers visual rewards and milestones to encourage
+therapeutic progress but lacks personalized
+conversations and cultural context offered by Raabta.
+
+Clarify ADHD:
+Provides progress insights and communication
+pattern tracking to support therapy, but it doesn’t
+offer bilingual, real-life social simulations like Raabta.
+
+Associated Organizations
+We are currently in contact with leading organizations and NGOs, and actively onboarding doctors and therapists to
+ensure expert-backed content and real-world impact.
+STL Rehabilitation Center are collaborating to co-develop expert-led modules that align with therapeutic goals
+and enhance real-world social interaction outcomes.
+National Academy of Young Scientists (NAYS) is helping to explore collaborative opportunities focused on
+research-backed interventions, therapist training, and expanding Raabtas impact within special education and
+neurodiversity initiatives.
+Speech Facilitation and Rehabiliation Clinic (SFRC) is helping in refining Raabtas language development
+modules, ensuring the app supports expressive and receptive communication for children with speech and
+social delays.
+
+Phone: +92 333 2907662 Email: nimrahkamran620@gmail.com
+
+Raabta 9
+CONCLUSION
+
+Raabta is more than just an app; it’s a breakthrough in how children with autism learn social communication. By
+blending AI-driven interaction, bilingual storytelling, and gamified rewards, Raabta supports meaningful
+behavioral development. Our scalable and inclusive tools offer value to families, therapists, and institutions
+working to empower neurodivergent children with the skills needed for real-world connection.
+
+Our Vision for the Future
+Raabta envisions a world where every child, regardless of neurodiversity, can build meaningful social connections
+and communication skills. Through storytelling, AI-powered interactions, and strong partnerships, we aim to:
+Bridge the gap between therapy and everyday learning by making social skills accessible at home and in
+classrooms.
+Support families, therapists, and institutions with tools designed for consistent, real-world progress.
+Create an inclusive environment where every child has the opportunity to express, connect, and thrive.
+
+Join Us on This Journey
+Whether you're a parent striving to support your child, a therapist seeking innovative tools, an educator
+promoting inclusive learning, or an investor ready to back a transformative mission. Raabta welcomes you.
+Together, let’s reshape the future of social skill development for every child.
