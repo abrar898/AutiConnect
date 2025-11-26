@@ -39,10 +39,10 @@ export function Navbar() {
           {/* Logo */}
           <Link href="/" className="text-2xl font-heading font-bold tracking-tight flex items-center gap-2 group">
               <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-primary to-blue-600 flex items-center justify-center text-white text-lg group-hover:scale-110 transition-transform">
-                R
+                AC
               </div>
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-foreground to-foreground/70 group-hover:to-primary transition-colors">
-                Raabta
+                AutiConnect
               </span>
           </Link>
 

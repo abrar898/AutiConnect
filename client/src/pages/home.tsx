@@ -19,18 +19,20 @@ export default function Home() {
         <ContactSection />
         
         {/* Footer */}
-        <footer className="bg-card py-12 border-t border-border">
-            <div className="container mx-auto px-4">
-                <div className="mt-12 pt-8 border-t border-border flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-muted-foreground">
-                    <p>&copy; 2025 Raabta. All rights reserved.</p>
-                    <div className="flex gap-6">
-                        <a href="#" className="hover:text-primary">Privacy Policy</a>
-                        <a href="#" className="hover:text-primary">Terms of Service</a>
-                        <a href="mailto:auticonnect8@gmail.com" className="hover:text-primary">auticonnect8@gmail.com</a>
-                    </div>
-                </div>
+        <footer className="mb-2 py-0 border-t border-border">
+    <div className="container mx-auto px-4">
+        <div className="mt-2 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-muted-foreground">
+            <p>&copy; 2025 auticonnect. All rights reserved.</p>
+
+            <div className="mb-4 flex gap-6 -mt-[3px]">
+                <a href="#" className="hover:text-primary">Privacy Policy</a>
+                <a href="#" className="hover:text-primary">Terms of Service</a>
+                <a href="mailto:auticonnect8@gmail.com" className="hover:text-primary">auticonnect8@gmail.com</a>
             </div>
-        </footer>
+        </div>
+    </div>
+</footer>
+
       </main>
     </div>
   );

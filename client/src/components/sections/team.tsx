@@ -3,11 +3,8 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 const team = [
   { name: "Nimrah Kamran", role: "Founder", image: "https://i.pravatar.cc/150?u=nimrah" },
   { name: "Amal Asim", role: "Co-Founder", image: "https://i.pravatar.cc/150?u=amal" },
-  { name: "Khawaja Muqeet", role: "CEO NerdFlow", image: "https://i.pravatar.cc/150?u=khawaja" },
-  { name: "Iqra Rathore", role: "CMO", image: "https://i.pravatar.cc/150?u=iqra" },
+  { name: "Khawaja Muqeet", role: "Mentor", image: "https://i.pravatar.cc/150?u=khawaja" },
   { name: "Hunzala Ali", role: "COO", image: "https://i.pravatar.cc/150?u=hunzala" },
-  { name: "Obaid Ahmed", role: "Design Dir.", image: "https://i.pravatar.cc/150?u=obaid" },
-  { name: "Abdul Hadi", role: "CTO", image: "https://i.pravatar.cc/150?u=hadi" },
 ];
 
 export function TeamSection() {
@@ -15,7 +12,7 @@ export function TeamSection() {
     <section id="team" className="py-32 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-20">
-          <h2 className="text-4xl font-heading font-bold mb-6">The Minds Behind Raabta</h2>
+          <h2 className="text-4xl font-heading font-bold mb-6">The Minds Behind AutiConnect</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             United by a passion for inclusive technology and education.
           </p>
